@@ -1,6 +1,6 @@
 # Prenatal Care Access in Georgia (2018–2024)
 
-This project analyzes prenatal care access trends across Georgia using (publicly available county-level birth outcome data)[https://oasis.state.ga.us/oasis/webquery/qryBirth.aspx]. 
+This project analyzes prenatal care access trends across Georgia using [publicly available county-level birth outcome data](https://oasis.state.ga.us/oasis/webquery/qryBirth.aspx). 
 
 The focus is on two key indicators of prenatal care access:
 -Fewer than 5 Prenatal Care Visits
@@ -78,7 +78,9 @@ Worsening late/no prenatal care is not isolated to rural shortages — it reflec
 # Interpretation & Public Health Significance
 
 -Rural communities carry a higher proportional burden, with fewer prenatal providers and longer care travel distances
+
 -Non-rural counties also show significant worsening in 2024, suggesting system-wide stressors
+
 -The shared statewide increase points to:
 
 -> Obstetric workforce reductions
@@ -100,3 +102,5 @@ Libraries	| Pandas, Seaborn, Matplotlib
 Processing	| CSV cleaning, rural/non-rural grouping, yearly aggregation
 
 Visuals	Line charts, comparison subplots
+
+**Analysis created for Healthy Mothers, Healthy Babies of Coalition of Georgia in partnership with Biokind Analytics @ Emory University.**
