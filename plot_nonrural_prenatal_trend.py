@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset (only RURAL counties)
-df = pd.read_csv("_5 prenatal care suburban - Sheet1.csv")
+df = pd.read_csv("late_no-prenatal care nonrural - Sheet1.csv")
 
 long_df = df.melt(
     id_vars="County",
@@ -35,7 +35,7 @@ y_min = grouped["Visits_LT5"].min() - 2
 y_max = grouped["Visits_LT5"].max() + 2
 plt.ylim(y_min, y_max)
 
-plt.title("Average Births with <5 Prenatal Care Visits\nNon-Rural Georgia Counties (2018–2024)")
+plt.title("Average Births with Late or no Prenatal Care by Residence \nNon-Rural Georgia Counties (2018–2024)")
 plt.xlabel("Year")
 plt.ylabel("Average Count (<5 visits)")
 plt.grid(alpha=0.3)
