@@ -37,7 +37,7 @@ plt.ylim(y_min, y_max)
 
 plt.title("Average Births with Late or no Prenatal Care by Residence \nNon-Rural Georgia Counties (2018–2024)")
 plt.xlabel("Year")
-plt.ylabel("Average Count (<5 visits)")
+plt.ylabel("Average Count (Late or no visits)")
 plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.show()
